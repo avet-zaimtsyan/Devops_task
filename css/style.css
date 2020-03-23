@@ -1,0 +1,563 @@
+@import url(reset.css);
+#wrapper {
+   width:1000px;
+   height:1324px;
+   outline: 0px solid #cc0000;
+   margin: 0 auto;
+   background-image: url(../images/bg.jpg);
+   background-repeat: repeat-x;
+}
+#header{
+    width: 1000px;
+    height: 157px;
+    outline: 0px solid #00cc00;
+    position: relative;
+}
+#logo {
+    width:350px;
+    height:104px;
+    outline: 0px solid #cccccc;
+    position: absolute;
+    top: 29px;
+    left: 26px;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+
+}
+#registration{
+    width:248px;
+    height:77px;
+    outline: 0px solid #cc0000;
+    position: absolute;
+    top: 49px;
+    right: 20px;
+    
+}
+
+.input {
+    border: 1px solid #dfdfdf;
+    width:246px;
+    height:27px;
+    background-color: #ffffff;
+    font: 14px Myriad Pro;
+    line-height: 28px;
+     position: absolute;
+    top: 0;
+    
+}
+.xosh{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    
+}
+.reg{
+  position: absolute;
+    top: 42px;
+    left:0px;  
+}
+.sign{
+    position: absolute;
+    top: 42px;
+    left:84px;
+    
+}
+.help{
+    position: absolute;
+    top: 42px;
+    right:0px;
+    
+}
+#navi {
+    width:960px;
+    height:63px;
+    outline: 0px solid #cc0000;
+    margin: 0 auto;
+    background-image: url(../images/nav.png);
+}
+#nav li {
+    outline:0px solid #cc0000;
+}
+#nav li a {
+    outline:0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    text-transform:uppercase;
+    font: 26px Myriad Pro;
+    color:#ffffff;
+}
+
+#nav li.p1{
+    width:139px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    display: block;
+    cursor: pointer;
+}
+#nav li.p2{
+    width:183px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p3{
+    width:200px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p4{
+     width:240px;
+    height:56px;
+  float: left;
+  outline:0px solid #cc0000;
+    
+}
+#nav li.p5{
+    width:193px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p1 a,#nav li.p2 a,#nav li.p3 a,#nav li.p4 a,#nav li.p5 a {
+    padding-top:12px;
+}
+#nav li.p1 a{
+    padding-left:32px ;
+    
+}
+#nav li.p2 a{
+    padding-left:33px ;
+    
+}
+#nav li.p3 a{
+    padding-left:44.5px ;
+    
+}
+#nav li.p4 a{
+    padding-left:36.5px ;
+    
+}
+#nav li.p5 a{
+    padding-left:36.5px ;
+    
+}
+#nav li.p1 a:hover,#nav li.p2 a:hover,#nav li.p3 a:hover,#nav li.p4 a:hover,#nav li.p5 a:hover {
+    font: 26px Myriad Pro;
+    color:#000000;
+    
+}
+#content{
+    width:1000px;
+    height:423px;
+    outline:0px solid #cc0000;
+    position: relative;
+}
+#contL{
+    width: 267px;
+    height: 423px;  /* 354 */
+    outline: 0px solid #cc0000;
+    background-image: url(../images/contL.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    top: 34px;
+    position: relative;
+}
+
+#contL #s1 a {
+    width: 66px;
+    height: 20px;
+    display: block;
+    outline: 0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    font: 12px Myriad Pro;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 11px;
+    background-image: url(../images/sh.png);
+    background-repeat: no-repeat;
+	
+}
+
+#contL #s2 a{
+    width: 66px;
+    height: 20px;
+    display: block;
+    outline: 0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    font: 12px Myriad Pro;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 11px;
+    background-image: url(../images/s.png);
+    background-repeat: no-repeat;
+	margin-left: 1px;
+}
+
+#contL #s3 a{
+    width: 66px;
+    height: 20px;
+    display: block;
+    outline: 0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    font: 12px Myriad Pro;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 11px;
+    background-image: url(../images/s.png);
+    background-repeat: no-repeat;
+	margin-left: 1px;
+	
+}
+
+#contL #s4 a{
+    width: 66px;
+    height: 20px;
+    display: block;
+    outline: 0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    font: 12px Myriad Pro;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 11px;
+    background-image: url(../images/s.png);
+    background-repeat: no-repeat;
+	margin-left: 1px;
+}
+#contL #s4 a:hover, #contL #s3 a:hover, #contL #s2 a:hover{
+    background-image: url(../images/sh.png);
+    background-repeat: no-repeat;
+}
+/* lcnumenq sev bloki mejin@ */
+
+#contc  {
+position: relative;  
+width:224px;
+height:274px; 
+outline:0px solid #cc0000; 
+top: 62px;
+left: 30px;
+
+}
+
+
+#punkter{
+    outline:0px solid #cc0000;
+    width:200px;
+    height:19px;
+    position: absolute;
+    top: 0;
+    font: 13px arial;
+    color: #ffffff;
+    
+}
+#punkter .oneway{
+    margin-left: 18px;
+}
+#form{
+    position: absolute;
+    outline:0px solid #cc0000;
+    top: 51px;
+   
+}
+#form2{
+     position: absolute;
+    outline:0px solid #cc0000;
+    top: 80px;
+    
+}
+#form,#form2{
+    font: 14px Myriad Pro;
+    color: #ffffff;
+    
+}
+#silka a {
+    
+    top: 29px;
+    text-decoration: underline;
+    font: 14px Myriad Pro;
+    color: #439deb;
+}
+#chek{
+    position: absolute;
+    top: 105px;
+    
+}
+#kfkjhg{
+    
+    text-decoration:underline;
+    font: 14px Myriad Pro;
+    color: #439deb;
+}
+#for1{
+    position: absolute;
+    top: 124px;
+    font: 14px Myriad Pro;
+    color: #ffffff;
+}
+#for2{
+    position: absolute;
+    top: 149px;
+    font: 14px Myriad Pro;
+    color: #ffffff;
+}
+#punki{
+       position: absolute;
+    top: 186px;
+    font: 14px Myriad Pro;
+    color: #ffffff;
+}
+#lifto{
+    position: absolute;
+    top: 224px;
+    font: 14px Myriad Pro;
+    color: #ffffff;
+}
+
+#sdghadshdgh {
+   
+   position: absolute;
+   top:0px;
+   left: 120px;
+    
+}
+#asfgsag{
+    width: 60px;
+}
+
+.earhyaerhy4{
+    border: 1px solid #333333;
+}
+#globus{
+    width:673px;
+    height:423px;
+    outline:0px solid #cc0000;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    background-image: url(../images/globus.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    z-index:3;
+}
+#mejin {
+    background-image: url(../images/5000hotels.png);
+    background-repeat: no-repeat;
+    background-position: 4px 79px;
+    position: absolute;
+    z-index:1;
+    outline:0px solid #00cc00;
+    width:290px;
+    height:423px;
+}
+#mejin h1 {
+    font:bold 32px Myriad Pro;
+    color:#323232;
+    text-transform: uppercase;
+    margin-top:129px;
+    margin-left:27px;
+    letter-spacing: -2px;
+}
+
+#mejin p.wer3 {
+    font:bold 12px arial;
+    color:#323232;
+     margin-top:25px;
+    margin-left:4px;
+    outline:0px solid #cc0000;
+    line-height: 20px;
+    
+}
+#mejin .hjiuy {
+    
+    width:116px;
+    height:35px;
+    background-image: url(../images/gazarreadmore.png);
+    background-repeat: no-repeat;
+ margin-top:30px;
+    margin-left:64px;
+    
+}
+#takonoma {
+    outline:0px solid #00cc00;
+    width:1000px;
+    height:595px;
+   position: relative;
+}
+
+#leftb{
+   outline:0px solid #1A12EA; 
+    width:267px;
+    height:534px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: left;
+}
+#tottravel {
+    outline:0px solid #cc0000;
+    background-image: url(../images/hot.png);
+    background-repeat: no-repeat;
+    width:267px;
+    height:57px;
+}
+
+
+#p1{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:166px;
+    background-image: url(../images/p1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    border-bottom: 1px solid #d0d0d0 ;
+    position: relative;
+
+}
+#p2{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:156px;
+     background-image: url(../images/p2.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    border-bottom: 1px solid #d0d0d0;
+     position: relative;
+}
+#p3{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:156px;
+     background-image: url(../images/p3.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    
+     position: relative;
+}
+#p1 h6,#p2 h6,#p3 h6  {
+    font:bold 13px arial;
+    color:#323232;
+    padding-left: 148px;
+    padding-top: 29px;
+     
+}
+#p1 p,#p2 p,#p3 p  {
+    font: 13px arial;
+    color:#323232;
+    padding-left: 148px;
+    padding-top: 12px;
+     
+}
+#p1 a,#p2 a,#p3 a  {
+    width:17px;
+height:17px;
+outline:0px solid #cc0000;
+    background-image: url(../images/slaq.png);
+    background-repeat: no-repeat;
+   position: absolute;
+   top: 130px;
+   left: 153px;
+    text-decoration: none;
+    
+}
+#rightb{
+    outline:0px solid #1A12EA;
+    width:690px;
+    height:534px;
+    float: left;  
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+#bloko1 {
+    outline:0px solid #00cc00;
+    width:690px;
+    height:215px;
+    position: absolute;
+    top: 103px;
+    background-repeat: no-repeat;
+    background-image: url(../images/f1.png);
+    background-position:40px 19px;
+    
+}
+#bloko2 {
+    outline:0px solid #00cc00;
+    width:690px;
+    height:215px;
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/f2.png);
+    background-position:40px 19px;
+    border-top: 1px solid #d0d0d0;
+}
+#rightb h1{
+    font:bold 38px Myriad Pro;
+    color:#3081c8;
+    text-transform: uppercase;
+    padding-left: 42px;
+    padding-top: 19px;
+}
+#bloko1 .sdfgsdg,#bloko2 .sdsasafgsdg {
+    font:bold 13px arial;
+    color:#323232;
+    padding-left:298px ;
+    padding-top:18px ;
+}
+#bloko1 .asq2,#bloko2 .asq2{
+   font:13px arial;
+    color:#323232;
+    padding-left:298px ; 
+    padding-top:6px ;
+    
+}
+#bloko1 a,#bloko2 a  {
+    width:17px;
+    height:17px;
+    background-image: url(../images/slaq2.png);
+    background-repeat: no-repeat;
+   position: absolute;
+   bottom: 4px;
+   left: 296px;
+    text-decoration: none;
+    
+}
+#bloko1 .asq3,#bloko2 .asq3{
+    font:13px arial;
+    color:#323232;
+    padding-top:10px ;
+    padding-left:298px ;
+}
+#footer {
+    outline:0px solid #1A12EA;
+    width:1000px;
+    height:100px;
+    background-image: url(../images/footers.png);
+    background-repeat: repeat-x;
+ 
+}
+#footer p {
+    padding-left:350px ;
+    padding-top: 34px;
+    font: 13px arial;
+    color:#ffffff;
+}
+#footer .s45ed {
+    padding-left:393px ;
+    padding-top: 0px;
+    font: 13px arial;
+    color:#ffffff;
+}
+#footer span {
+    text-decoration: underline;
+    color:#439deb;
+}

@@ -1,0 +1,390 @@
+@import url(reset.css);
+#wrapper {
+   width:1000px;
+   height:1324px;
+   outline: 0px solid #cc0000;
+   margin: 0 auto;
+   background-image: url(../images/bg.jpg);
+   background-repeat: repeat-x;
+}
+#header{
+    width: 1000px;
+    height: 157px;
+    outline: 0px solid #00cc00;
+    position: relative;
+}
+#logo {
+    width:350px;
+    height:104px;
+    outline: 0px solid #cccccc;
+    position: absolute;
+    top: 29px;
+    left: 26px;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+
+}
+#registration{
+    width:248px;
+    height:77px;
+    outline: 0px solid #cc0000;
+    position: absolute;
+    top: 49px;
+    right: 20px;
+    
+}
+
+.input {
+    border: 1px solid #dfdfdf;
+    width:246px;
+    height:27px;
+    background-color: #ffffff;
+    font: 14px Myriad Pro;
+    line-height: 28px;
+     position: absolute;
+    top: 0;
+    
+}
+.xosh{
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    
+}
+.reg{
+  position: absolute;
+    top: 42px;
+    left:0px;  
+}
+.sign{
+    position: absolute;
+    top: 42px;
+    left:84px;
+    
+}
+.help{
+    position: absolute;
+    top: 42px;
+    right:0px;
+    
+}
+#navi {
+    width:960px;
+    height:63px;
+    outline: 0px solid #cc0000;
+    margin: 0 auto;
+    background-image: url(../images/nav.png);
+}
+#nav li {
+    outline:0px solid #cc0000;
+}
+#nav li a {
+    outline:0px solid #cc0000;
+    float: left;
+    text-decoration: none;
+    text-transform:uppercase;
+    font: 26px Myriad Pro;
+    color:#ffffff;
+}
+
+#nav li.p1{
+    width:139px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    display: block;
+    cursor: pointer;
+}
+#nav li.p2{
+    width:183px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p3{
+    width:200px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p4{
+     width:240px;
+    height:56px;
+  float: left;
+  outline:0px solid #cc0000;
+    
+}
+#nav li.p5{
+    width:193px;
+    height:56px;
+    float: left;
+    outline:0px solid #cc0000;
+    
+}
+#nav li.p1 a,#nav li.p2 a,#nav li.p3 a,#nav li.p4 a,#nav li.p5 a {
+    padding-top:12px;
+}
+#nav li.p1 a{
+    padding-left:32px ;
+    
+}
+#nav li.p2 a{
+    padding-left:33px ;
+    
+}
+#nav li.p3 a{
+    padding-left:44.5px ;
+    
+}
+#nav li.p4 a{
+    padding-left:36.5px ;
+    
+}
+#nav li.p5 a{
+    padding-left:36.5px ;
+    
+}
+#nav li.p1 a:hover,#nav li.p2 a:hover,#nav li.p3 a:hover,#nav li.p4 a:hover,#nav li.p5 a:hover {
+    font: 26px Myriad Pro;
+    color:#000000; 
+}
+#content{
+    width:1000px;
+    height:329px;
+    outline:0px solid #cc0000;
+    position: relative;
+    background-image: url(../images/globus2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+#content h1 {
+    font:bold 32px Myriad Pro;
+    color:#323232;
+    text-transform: uppercase;
+    padding-top:103px;
+    padding-left:55px;
+    letter-spacing: -2px;
+}
+#content #hotels {
+    outline:0px solid #cc0000;
+    width:272px;
+    height:47px;
+    background-image: url(../images/5000hotels.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 49px;
+    left: 55px;
+}
+#content p {
+font:bold 12px arial;
+    color:#323232;
+     padding-top:20px;
+    padding-left:55px;
+    outline:0px solid #cc0000;
+    line-height: 20px;
+    
+    }
+    #content .hjiuy{
+     width:116px;
+    height:36px;
+    background-image: url(../images/gazarreadmore.png);
+    background-repeat: no-repeat;
+ background-position: 54px 22px;
+    }
+    
+    #takonoma {
+    outline:0px solid #00cc00;
+    width:1000px;
+    height:595px;
+   position: relative;
+}
+
+#leftb{
+   outline:0px solid #1A12EA; 
+    width:267px;
+    height:534px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: left;
+}
+#tottravel {
+    outline:0px solid #cc0000;
+    background-image: url(../images/hot.png);
+    background-repeat: no-repeat;
+    width:267px;
+    height:57px;
+}
+
+
+#p1{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:166px;
+    background-image: url(../images/p1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    border-bottom: 1px solid #d0d0d0 ;
+    position: relative;
+
+}
+#p2{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:156px;
+     background-image: url(../images/p2.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    border-bottom: 1px solid #d0d0d0;
+     position: relative;
+}
+#p3{
+    outline:0px solid #cc0000;
+    width:267px;
+    height:156px;
+     background-image: url(../images/p3.png);
+    background-repeat: no-repeat;
+    background-position: 20px 28px;
+    
+     position: relative;
+}
+#p1 h6,#p2 h6,#p3 h6  {
+    font:bold 13px arial;
+    color:#323232;
+    padding-left: 148px;
+    padding-top: 29px;
+     
+}
+#p1 p,#p2 p,#p3 p  {
+    font: 13px arial;
+    color:#323232;
+    padding-left: 148px;
+    padding-top: 12px;
+     
+}
+#p1 a,#p2 a,#p3 a  {
+    width:17px;
+height:17px;
+outline:0px solid #cc0000;
+    background-image: url(../images/slaq.png);
+    background-repeat: no-repeat;
+   position: absolute;
+   top: 130px;
+   left: 153px;
+    text-decoration: none;
+    
+}
+#rightb{
+    outline:0px solid #1A12EA;
+    width:690px;
+    height:534px;
+    float: left;  
+    position: absolute;
+    top: 0;
+    right: 20px;
+   
+}
+#rightb h1{
+    font:bold 38px Myriad Pro;
+    color:#3081c8;
+    text-transform: uppercase;
+    padding-left: 42px;
+    padding-top: 3px;
+}
+/* begin */
+#rightb .abzac1{
+    font:13px arial;
+    color:#323232;
+    padding-top:32px ;
+    padding-left:224px ;
+}
+#rightb .asdfh4{
+    font:13px arial;
+    color:#323232;
+    padding-top:20px ;
+    padding-left:43px ;
+}
+
+
+
+#rightb .dsg5{
+    font:13px arial;
+    color:#323232;
+    padding-top:120px ;
+    padding-left:43px ;
+}
+/* end */
+#footer {
+    outline:0px solid #1A12EA;
+    width:1000px;
+    height:100px;
+    background-image: url(../images/footers.png);
+    background-repeat: repeat-x;
+ 
+}
+#footer p {
+    padding-left:350px ;
+    padding-top: 34px;
+    font: 13px arial;
+    color:#ffffff;
+}
+#footer .s45ed {
+    padding-left:393px ;
+    padding-top: 0px;
+    font: 13px arial;
+    color:#ffffff;
+}
+#footer span {
+    text-decoration: underline;
+    color:#439deb;
+}
+#dst1 {
+    outline:0px solid #cc0000;
+    width:636px;
+    height:136px;
+    background-image: url(../images/dest1.png);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    border-bottom: 1px solid #cccccc;
+}
+#dst2 {
+    outline:0px solid #cc0000;
+    width:636px;
+    height:136px;
+    background-image: url(../images/dest2.png);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    border-bottom: 1px solid #cccccc;
+}
+#dst3 {
+    outline:0px solid #cc0000;
+    width:636px;
+    height:136px;
+    background-image: url(../images/dest3.png);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+}
+#dst1,#dst2,#dst3{
+    margin-left: 43px;
+    margin-top:44px ;
+ 
+
+    
+}
+#dst2,#dst3{margin-top:0 ;}
+
+#dst1 .h6na,#dst2 .h6na,#dst3 .h6na {
+    font:bold 13px arial;
+    color:#323232;
+    padding-left: 180px;
+    
+}
+#dst1 .pna,#dst2 .pna,#dst3 .pna {
+    font: 13px arial;
+    color:#323232;
+    padding-left: 180px;
+    padding-top: 15px;
+}
